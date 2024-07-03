@@ -20,3 +20,13 @@ export const useSampleTransactions = () => {
     isError: error,
   }
 }
+
+export const useSampleDrafts = () => {
+  const { data, error } = useSWR('/admin-one-react-tailwind/data-sources/drafts.json', fetcher)
+
+  return {
+    clients: data?.data ?? [],
+    isLoading: !error && !data,
+    isError: error,
+  }
+}

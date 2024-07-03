@@ -1,0 +1,27 @@
+{
+    "data": [
+      {
+        "id": 19,
+        "documentNo": "SOP/024/001",
+        "department": "QA",
+        "documentType": "SOP",
+        "category": "General",
+        "documentTitle": " SOP of SOP",
+        "status": "Active",
+        "preparedBy": "Nikhil Cheedala",
+        "createdOn": "03-03-2023"
+      },
+      {
+        "id": 11,
+        "documentNo": "SOP/024/002",
+        "department": "QA",
+        "documentType": "SOP",
+        "category": "General",
+        "documentTitle": "SOP on Handling Test Procedure ",
+        "status": "Active",
+        "preparedBy": "Nikhil Cheedala",
+        "createdOn": "12-01-2023"
+      }
+    ]
+  }
+  

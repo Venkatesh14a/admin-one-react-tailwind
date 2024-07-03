@@ -71,3 +71,15 @@ export type UserForm = {
   name: string
   email: string
 }
+
+export type DocumentAttributes = {
+  id: number
+  documentNo: string
+  department: string
+  documentType: string
+  category: string
+  documentTitle: string
+  status: string
+  preparedBy: string
+  createdOn: string
+}

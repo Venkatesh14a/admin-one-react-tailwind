@@ -21,6 +21,26 @@ const menuAside: MenuAsideItem[] = [
     label: 'Dashboard',
   },
   {
+    label: 'Document Stage',
+    icon: mdiViewList,
+    menu: [
+      {
+        href: '/drafts',
+        label: 'Draft',
+      },
+      {
+        label: 'Review',
+      },
+      {
+        label: 'Approve',
+      },
+      {
+        label: 'Effective',
+      },
+
+    ],
+  },
+  {
     href: '/tables',
     label: 'Tables',
     icon: mdiTable,
