@@ -10,11 +10,12 @@ const LoadDrafts = () => {
 
   const perPage = 5
 
+
   const [currentPage, setCurrentPage] = useState(0)
 
   const clientsPaginated = clients.slice(perPage * currentPage, perPage * (currentPage + 1))
 
-  const numPages = 1; //Math.ceil(clients.length / perPage)
+  const numPages = Math.ceil(clients.length / perPage)
 
   const pagesList = []
 
@@ -104,9 +105,9 @@ const LoadDrafts = () => {
               />
             ))}
           </Buttons>
-          {/* <small className="mt-6 md:mt-0">
+          <small className="mt-6 md:mt-0">
             Page {currentPage + 1} of {numPages}
-          </small> */}
+          </small>
         </div>
       </div>
     </>
