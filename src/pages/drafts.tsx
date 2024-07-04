@@ -6,7 +6,7 @@ import LayoutAuthenticated from '../layouts/Authenticated'
 import SectionMain from '../components/Section/Main'
 import SectionTitleLineWithButton from '../components/Section/TitleLineWithButton'
 import { getPageTitle } from '../config'
-import LoadDrafts from '../components/DocumentStage/loadDrafts'
+import LoadDrafts from '../components/DocumentStage/LoadDrafts'
 
 const Drafts = () => {
   return (
